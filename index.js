@@ -21,8 +21,6 @@ await connectToDb()
 
 app.use(Express.json())
 
-app.use()
-
 app.use(cors())
 
 app.use('/login', loginRoute)
