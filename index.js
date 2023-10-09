@@ -19,7 +19,7 @@ await connectToDb()
 
 // middleWare
 
-// app.use(Express.json())
+app.use(Express.json())
 
 app.use()
 
